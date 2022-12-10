@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+.hero {
+    padding-top: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.hero h2 {
+    padding-bottom: 10px;
+}
+p {
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5;
+}
+
+
+
+.box-section p {
+    padding-top: 15px;
+    
+}
+.supervisor {
+    border-top: solid;
+    border-color: hsl(180, 62%, 55%);
+    
+    
+
+    
+}
+
+.team-builder {
+    border-top: solid;
+    border-color: hsl(0, 78%, 62%);
+    
+    
+}
+
+.karma {
+    border-top: solid;
+    border-color: hsl(34, 97%, 64%);
+    
+
+}
+
+.calculator {
+    border-top: solid;
+    border-color: hsl(212, 86%, 64%);
+    
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+}
+
+.box {
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 311px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+
+    .hero {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    .box-section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .vertical-box, .left-box, .right-box {
+        margin: 0 auto;
+        width: 311px;
+        
+    }
+
+    .box .calculator {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    
+    
+}
